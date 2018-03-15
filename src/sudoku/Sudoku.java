@@ -9,25 +9,48 @@ import java.util.Scanner;
 
 /**
  *
- * @author user
+ * @author Jesus
  */
 public class Sudoku {
 
     /**
-     * @param args the command line arguments
+     * 
+     * @param args 
      */
+    
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Iniciar/Reiniciar");
-        String menudeinicio = teclado.nextLine();
-        if (menudeinicio.equals("Iniciar")) {
-            
+        System.out.println("1. Iniciar sudoku \n"
+                + "2.Reiniciar sudoku \n" +
+                    "3. Realizar movimiento\n" +
+                    "4. Vaciar casilla \n" +
+                    "5. Mostrar sudoku \n" +
+                    "6. Terminar");
+        int menu=teclado.nextInt();
+        switch(menu)
+        {
+            case 1:
+                
+                break;
+            case 2:
+                
+                break;
+            case 3:
+                
+                break;
+            case 4:
+                
+                break;
+            case 5:
+                
+                break;
+            case 6:
+                
+                break;
         }
-        if (menudeinicio.equals("Reiniciar")) {
-            
-        }
-        System.out.println("Coordenadas de la casilla para la colocacion del numero");
-        String coordenadas=teclado.nextLine();
+         /**
+          * Menu switch para la eleccion simple de cada apartado
+          */       
         
     }
 
