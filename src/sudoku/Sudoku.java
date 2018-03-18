@@ -8,13 +8,13 @@ package sudoku;
 import java.util.Scanner;
 
 /**
- *
+ *La main clase sudoku
  * @author Jesus
  */
 public class Sudoku {
 
     /**
-     * 
+     * El metodo main donde escribimos todo lo deseado en el main
      * @param args 
      */
     
@@ -27,6 +27,9 @@ public class Sudoku {
                     "5. Mostrar sudoku \n" +
                     "6. Terminar");
         int menu=teclado.nextInt();
+        /**
+          * Menu switch para la eleccion simple de cada apartado
+          */
         switch(menu)
         {
             case 1:
@@ -47,11 +50,7 @@ public class Sudoku {
             case 6:
                 
                 break;
-        }
-         /**
-          * Menu switch para la eleccion simple de cada apartado
-          */       
-        
+        }    
     }
 
 }
